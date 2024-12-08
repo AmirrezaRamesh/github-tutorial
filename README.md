@@ -1,25 +1,27 @@
-# عنوان مورد نظر
+# title
 
-## زیر عنوان اول
+## small title
 
-### زیر عنوان دوم 
+### smaller title
 
-توضیحات در مورد عنوان
+simple note here
+** bold note here**
+- [list linked to small title](small title)
+- [list linked to smaller title)(smaller title)
 
-** این متن پر رنگ است ** 
-- [لیست بدون شماره 1 برای رفتن به زیرعنوان اول](زیر عنوان اول)
-- [لیست بدون شماره 2 برای رفتن به زیر عنوان دوم](زیر عنوان دوم)
-
-1. لیست با شماره 1 لینک نشده
-2. لیست با شماره 2 لینک نشده
+1. numbered list without a link
+2. numbered list without a link2
 
 
    
 ```python
+#you can put blocks of code here
 a = int(input('enter the code here'))
 ```
 
 
 
-   
-![توضیح در مورد عکس](github-color.svg)
+you can also put pictures. in readme file where I placed the name of picture,
+it should be the relative path of picture in the repo then the name of file(like images/pngs/picture.png)
+
+![name for picture](github-color.svg)
