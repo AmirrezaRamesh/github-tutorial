@@ -5,7 +5,7 @@
 ### smaller-title
 
 simple note here
-** bold note here**
+**bold note here**
 - [link to title](#title)
 - [link to smal title](#small-title)
 
