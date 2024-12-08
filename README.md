@@ -13,8 +13,13 @@
 1. لیست با شماره 1
 2. لیست با شماره 2
 3. لیست با شماره 3
-![توضیح در مورد عکس](github-color.svg)
-``` 
+
+   
+```python
 a = int(input('enter the code here'))
 ```
 
+
+
+   
+![توضیح در مورد عکس](github-color.svg)
