@@ -7,7 +7,7 @@
 simple note here
 ** bold note here**
 - [link to title](#title)
-- [link](#small-title)
+- [link to smal title](#small-title)
 
 1. numbered list without a link
 2. numbered list without a link2
