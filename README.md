@@ -1,13 +1,13 @@
 # title
 
-## small title
+## small-title
 
-### smaller title
+### smaller-title
 
 simple note here
 ** bold note here**
-- [link](#title)
-- [link](#smalltitle)
+- [link to title](#title)
+- [link](#small-title)
 
 1. numbered list without a link
 2. numbered list without a link2
