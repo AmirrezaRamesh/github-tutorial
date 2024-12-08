@@ -6,8 +6,8 @@
 
 simple note here
 ** bold note here**
-- [list linked to small title](small title)
-- [list linked to smaller title)(smaller title)
+- [list linked to small title](#small title)
+- [list linked to smaller title)(##smaller title)
 
 1. numbered list without a link
 2. numbered list without a link2
