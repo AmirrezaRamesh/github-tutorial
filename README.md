@@ -136,7 +136,7 @@ This clones the repository to your system, allowing you to pull, commit, and pus
 
 on every directory of git repos, you can put a README.md file which on will be shown by default on github. you can document everything about the project that you have been working on. README file uses the MARKDOWN markup language, which allows you to easily document the project report or changes made in this file. In each folder of the repo, if a README.md exists, GitHub displays this file by default. Now in the block below, you can see how to make simple edits and include links and images in the file.
 
-```sh
+```txt
 # title >> to add a big title
 
 ## sub title >> to add a sub title
