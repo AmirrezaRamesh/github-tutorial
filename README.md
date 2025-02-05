@@ -15,11 +15,10 @@ here's a simple, yet useful tutorial of git & github to get started with
 - [4. Managing codes with github branch](#Managing-codes-with-github-branch)
 - [5. Installing and Running Git on Linux Terminal](#installing-and-running-git-on-linux-terminal)
 - [6. Creating a PAT for Your Account](#creating-a-pat-for-your-account)
-- [7. Adding a Repository to Your System Using Clone](#adding-a-repository-to-your-system-using-clone)
+- [7. Cloning a repository using the PAT](#Cloning-a-repository-using-the-PAT)
 - [8. List of Essential Git Commands](#list-of-essential-git-commands)
 - [9. Editing the README](#editing-the-readme)
-- [10. GitHub Project Options](#github-project-options)
-- [11. Using Git in VSCode](#using-git-in-vscode)
+- [10. Using Git in VSCode](#using-git-in-vscode)
 
 ![logo](images/github-color.svg)
 
