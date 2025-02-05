@@ -17,7 +17,7 @@ here's a simple, yet useful tutorial of git & github to get started with
 - [6. Creating a PAT for Your Account](#creating-a-pat-for-your-account)
 - [7. Cloning a repository using the PAT](#Cloning-a-repository-using-the-PAT)
 - [8. List of Essential Git Commands](#list-of-essential-git-commands)
-- [9. Editing the README](#editing-the-readme.md-file)
+- [9. Editing the README](#editing-the-readme)
 - [10. Using Git in VSCode](#using-git-in-vscode)
 
 ![logo](images/github-color.svg)
@@ -132,11 +132,11 @@ git clone https://<username>:<PAT>@github.com/user/repository
 ```
 This clones the repository to your system, allowing you to pull, commit, and push changes.
 
-##  Editing the README.md file
+##  Editing the README
 
-The README file uses the MARKDOWN markup language, which allows you to easily document the project report or changes made in this file. In each folder of the repo, if a README.md exists, GitHub displays this file by default. Now in the block below, you can see how to make simple edits and include links and images in the file.
+on every directory of git repos, you can put a README.md file which on will be shown by default on github. you can document everything about the project that you have been working on. README file uses the MARKDOWN markup language, which allows you to easily document the project report or changes made in this file. In each folder of the repo, if a README.md exists, GitHub displays this file by default. Now in the block below, you can see how to make simple edits and include links and images in the file.
 
-```
+```sh
 # title >> to add a big title
 
 ## sub title >> to add a sub title
@@ -155,7 +155,7 @@ The README file uses the MARKDOWN markup language, which allows you to easily do
 2. list5   >> these 3 lines is an example of a list with numbers
 3. list6 >>
 
-![name for picture](relative path of picture) >> to add picture for example ![robotPic](images/robot/robot.png)
+![name for picture](relative path of picture) >> to add picture: for example ![robotPic](images/robot/robot.png)
 
 [text](https link) >> to add a website link on a text
 
