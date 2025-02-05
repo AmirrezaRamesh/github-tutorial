@@ -9,7 +9,6 @@ here's a simple, yet useful tutorial of git & github to get started with
 
 ## Table of Contents
 
-- [0. Key Takeaways](#key-takeaways)
 - [1. Installing Git on Windows](#installing-git-on-windows)
 - [2. Basic Git Concepts](#basic-git-concepts)
 - [3. Creating, Editing, and Cloning a Repository](#creating-editing-and-cloning-a-repository)
@@ -24,24 +23,11 @@ here's a simple, yet useful tutorial of git & github to get started with
 
 ![logo](images/github-color.svg)
 
-## Key Takeaways
-
-Here are the key steps summarized. If you encounter any issues, refer to the corresponding section for detailed explanations:
-
-1. Install Git and GitHub Desktop (If using Linux, refer to sections 5, 6, 7, and 8).
-2. Clone the project repository to a designated folder in GitHub Desktop.
-3. Switch to the relevant branch in GitHub Desktop (top of the screen).
-4. Upload or edit your files in the cloned folder. Ensure that GitHub Desktop recognizes the changes.
-5. When committing and pushing changes, include appropriate descriptions in the commit message.
-6. Before starting work, always use the **Fetch Origin** option in GitHub Desktop to ensure your branch is up to date.
-7. Maintain organized branches for easier analysis and collaboration.
-8. If required by the project manager, update the `README.md` file alongside your code and files, as documentation is essential for the project's continuity (refer to section 9 for README editing instructions).
-
 ## Installing Git on Windows
 
 Follow these steps to install Git on Windows:
 
-1. Search for "Git" in your browser and download the Windows version from Git's official website.
+1. Search for "Git" in your browser and download the Windows version from [Git's official website](https://git-scm.com/downloads).
 2. Run the downloaded installer, accept the default settings (they can be modified later if needed), and complete the installation.
 3. Search for "GitHub Desktop" in your browser, download it from GitHub’s official site, and install it.
 4. Open the Command Prompt (CMD) and type `git`. If you see details about the Git command, it means Git has been installed successfully.
