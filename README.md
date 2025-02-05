@@ -20,7 +20,7 @@ here's a simple, yet useful tutorial of git & github to get started with
 - [9. Editing the README](#editing-the-readme)
 - [10. Using Git in VSCode](#using-git-in-vscode)
 
-![logo](images/github-color.svg)
+![logo](pics/github-color.svg)
 
 ## Installing Git on windows
 
@@ -55,7 +55,7 @@ on github:
 6. Select a repository and **clone** it to a specific location on your computer.
 7. Now, you have the project repository on your local system and can manage changes through GitHub Desktop.
 
-![desktop](images/1.png)
+![desktop](pics/1.png)
 
 on local machine: 
 1. create a folder and open it
@@ -200,5 +200,9 @@ on every directory of reposistories, you can put a README.md file which will be 
 -[title 3](#title3) >>
 
 ```
+##
 
+VScode supports git to source control your programs. This means you can code in the repo that has been cloned on your system, and directly commit and push code changes within the VScode application. To do this, click on "File" at the top of the page, then select "Open Folder" and choose the cloned folder from GitHub. Then look at the left sidebar, and the git logo (as several dots connected by lines) will be visible. The image below shows the overall git panel in VScode.
+
+![vscode](pics/2.png)
 
