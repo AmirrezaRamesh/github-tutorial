@@ -130,11 +130,47 @@ To clone a repository, your Git account must be authenticated. On Linux, authent
 ```sh
 git clone https://<username>:<PAT>@github.com/user/repository
 ```
-This clones the repository to your system, allowing you to pull, commit, and push changes.
+
+4. After cloning the repo, generally, we should be able to use Git commands in the directory where we placed the repo. However, under certain conditions, we may need to authenticate again, and we must reintroduce our PAT to Git for each pull, push and clone command, which can be annoying. After using the command above to clone, we can use the command below to save the authentication details, so there's no need to use the PAT in future commands. Generally, if you have used the PAT in previous commands, the command below should be executed directly, but it may prompt you for username and password (which is the PAT) that you need to enter, and then they will be saved.
+`git config --global credential.helper store`
+
+
+## List of essential Git commands
+```sh
+git status # to see the changes made in the repo
+
+git add file # add a file or a modified file to git ready to be commited
+
+git add . # add all the files(including modified ones) to git ready to be commited
+
+git commit -m "commit message" # to commit changes with a message
+
+git push origin <branch-name> #push the changes to the branch we want e. g. main or electronic
+
+#for example
+git add code.py
+git commit -m "new python code uoploaded"
+git push origin control
+
+git pull origin <branch-name> # to download the latest version of the files of a branch to your PC
+
+git pull origin AI # download new & modified files for the AI branch and replace them with the files you have on your PC
+
+git checkout <branch-name> #switch from one branch to another
+
+git checkout mechanic #here we switch from main branch to mechanic branch. now the files of mechanic branch is accessible
+
+git branch #list branches that we have locally siwtched to, meaning at first it lists only main branch but after checkout commands, it shows other branches too
+
+git checkout -- file.name # go back to last commit of the modified file. it could be a python code or even a stl mesh file
+
+git log #to see history of commits
+```
+
 
 ##  Editing the README
 
-on every directory of git repos, you can put a README.md file which on will be shown by default on github. you can document everything about the project that you have been working on. README file uses the MARKDOWN markup language, which allows you to easily document the project report or changes made in this file. In each folder of the repo, if a README.md exists, GitHub displays this file by default. Now in the block below, you can see how to make simple edits and include links and images in the file.
+on every directory of reposistories, you can put a README.md file which will be shown by default on github. you can document everything about the project that you have been working on. README file uses the MARKDOWN markup language, which allows you to easily document the project report or changes made in this file. In each folder of the repo, if a README.md exists, GitHub displays this file by default. Now in the block below, you can see how to make simple edits and include links and images in the file.
 
 ```
 # title >> to add a big title
