@@ -17,7 +17,7 @@ here's a simple, yet useful tutorial of git & github to get started with
 - [6. Creating a PAT for Your Account](#creating-a-pat-for-your-account)
 - [7. Cloning a repository using the PAT](#Cloning-a-repository-using-the-PAT)
 - [8. List of Essential Git Commands](#list-of-essential-git-commands)
-- [9. Editing the README](#editing-the-readme)
+- [9. Editing the README](#editing-the-readme.md-file)
 - [10. Using Git in VSCode](#using-git-in-vscode)
 
 ![logo](images/github-color.svg)
@@ -130,9 +130,39 @@ To clone a repository, your Git account must be authenticated. On Linux, authent
 ```sh
 git clone https://<username>:<PAT>@github.com/user/repository
 ```
-
 This clones the repository to your system, allowing you to pull, commit, and push changes.
 
----
-This guide provides a complete introduction to Git and GitHub. Refer to each section for detailed explanations of installation, repository management, and working with branches.
+##  Editing the README.md file
+
+The README file uses the MARKDOWN markup language, which allows you to easily document the project report or changes made in this file. In each folder of the repo, if a README.md exists, GitHub displays this file by default. Now in the block below, you can see how to make simple edits and include links and images in the file.
+
+```
+# title >> to add a big title
+
+## sub title >> to add a sub title
+
+### smaller title >> to add an even smaller title
+
+**bold** >> to make a text bold
+
+*italic* >> to make a text italic
+
+- list1 >>
+- list2   >> these 3 lines is an example of a list
+- list3 >>
+
+1. list4 >>
+2. list5   >> these 3 lines is an example of a list with numbers
+3. list6 >>
+
+![name for picture](relative path of picture) >> to add picture for example ![robotPic](images/robot/robot.png)
+
+[text](https link) >> to add a website link on a text
+
+-[title 1](#title1) >>
+-[title 2](#title2)   >> to make a list linked to titles that start with # , ## or ###. note that all three of titles are used with # here
+-[title 3](#title3) >>
+
+```
+
 
