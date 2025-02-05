@@ -47,6 +47,7 @@ Follow these steps to install Git on Windows:
 
 ## Creating, editing, and cloning a repository
 
+on github:
 1. Create a GitHub account and log in.
 2. On the homepage, view the list of repositories on the left. Click **New** to create a new repository.
 3. Choose a repository name, set it as **public** or **private**, check **Add a README.md**, and create the repository.
@@ -56,6 +57,20 @@ Follow these steps to install Git on Windows:
 7. Now, you have the project repository on your local system and can manage changes through GitHub Desktop.
 
 ![desktop](images/1.png)
+
+on local machine: 
+1. create a folder and open it
+2. open cmd(or terminal) on that path and enter `git init`
+3. add files and use `git add .` for git to recognize the files
+4. commit using `commit -m "message"`
+5. open github and create a github repository and copy its URL
+6. add the remote repo using `git remote add origin https://github.com/your-username/repository.git`
+7. push the changes using `git push -u origin main`
+
+   
+
+
+
 
 ## Managing codes with Github branch
 
