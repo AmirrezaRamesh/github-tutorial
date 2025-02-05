@@ -111,7 +111,7 @@ To clone a repository, your Git account must be authenticated. On Linux, authent
 4. Set a token name and enable necessary permissions.
 5. Generate the token and **store it securely** as it won't be shown again.
 
-## Adding a Repository to Your System Using Clone
+## Cloning a repository using the PAT
 
 1. On GitHub, open the repository and copy its URL (format: `https://github.com/user/repository`).
 2. Open your Linux terminal and navigate to your desired directory using `cd`.
