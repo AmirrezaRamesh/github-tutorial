@@ -1,4 +1,5 @@
-# Git & GitHub
+# Git & Github tutorial 
+here's a simple, yet useful tutorial of git & github to get started with
 
 ## What is Git & GitHub?
 
