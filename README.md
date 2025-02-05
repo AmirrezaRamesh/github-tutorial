@@ -7,12 +7,12 @@ here's a simple, yet useful tutorial of git & github to get started with
 
 - **GitHub**: A website that allows you to store code managed with Git online and share it with others. It’s like a social network for developers, where they can collaborate on projects.
 
-## Table of Contents
+## Table of contents
 
 - [1. Installing Git on Windows](#installing-git-on-windows)
 - [2. Basic Git Concepts](#basic-git-concepts)
 - [3. Creating, Editing, and Cloning a Repository](#creating-editing-and-cloning-a-repository)
-- [4. Project Organization with Branches](#project-organization-with-branches)
+- [4. Managing codes with github branch](#Managing-codes-with-github-branch)
 - [5. Installing and Running Git on Linux Terminal](#installing-and-running-git-on-linux-terminal)
 - [6. Creating a PAT for Your Account](#creating-a-pat-for-your-account)
 - [7. Adding a Repository to Your System Using Clone](#adding-a-repository-to-your-system-using-clone)
@@ -23,7 +23,7 @@ here's a simple, yet useful tutorial of git & github to get started with
 
 ![logo](images/github-color.svg)
 
-## Installing Git on Windows
+## Installing Git on windows
 
 Follow these steps to install Git on Windows:
 
@@ -34,7 +34,7 @@ Follow these steps to install Git on Windows:
 
 > **Note:** Git has several essential commands for project control. However, on Windows, you can use GitHub Desktop's graphical interface instead of the command line. Regardless, understanding Git commands is important, as covered in the Linux section below.
 
-## Basic Git Concepts
+## Basic git concepts
 
 - **Repository (Repo):** A folder that stores all code and change history, similar to an archive that keeps all files and previous versions. Repositories are usually created on GitHub and changes are stored online.
 - **Clone:** A command to copy a repository from GitHub to your local system. The copied folder remains linked to GitHub, allowing updates and modifications.
@@ -45,7 +45,7 @@ Follow these steps to install Git on Windows:
 
 > **Tip:** The difference between `commit` and `push` is that `commit` only saves changes locally, whereas `push` shares them on GitHub. Similarly, `fetch` retrieves updates from GitHub without modifying local files, while `pull` updates the local files as well.
 
-## Creating, Editing, and Cloning a Repository
+## Creating, editing, and cloning a repository
 
 1. Create a GitHub account and log in.
 2. On the homepage, view the list of repositories on the left. Click **New** to create a new repository.
@@ -57,13 +57,23 @@ Follow these steps to install Git on Windows:
 
 ![desktop](images/1.png)
 
-## Project Organization with Branches
+## Managing codes with Github branch
 
-Repositories in GitHub have a default **main** branch. Additional branches can be created for better organization. The purpose of multiple branches is to test and apply changes in a separate environment without directly modifying the main files.
-
-For example, if a developer is working on `control.cpp`, they can create a **test** branch, apply changes, and test them separately. Once satisfied, they can merge the changes into the **main** branch.
+Repositories in GitHub have a default **main** branch. as you work on your code, there are many times where you need to organize your workspace into multiple seprated workspaces where you can work on diffrent aspects of the code, or when you simply want to modify the code for new features without actually changing the main code. that's when you need to create new branches and source it to an older branch so all the files from that branch is copied to the new workspace. Additional branches can be created for better organization. The purpose of multiple branches is to test and apply changes in a separate environment without directly modifying the main files.
+For example, if 3 developers are working on the same program, first developer wants rewrite the code and make it cleaner, second developer wants to add and test some new features and third developer wants to write a modulated library for the program. it is not so hard to tell that these three developers can't directly modify the main program or work on the same files. so they simply create some other branches and work separately and at the end, they can merge they changes to the main program.
 
 Keeping branches well-organized ensures better collaboration and readability.
+
+```sh
+git branch <branch name> # to create a new branch
+git checkout <branch name> # to switch between branches
+git checkout -b <branch name> #to create and switch to a new branch
+git branch # to list all the branches
+git branch -m <old branch name> <new branch name> #rename a branch
+git push origin --delete <branch name> # delete a branch from remote
+git push -u origin <branch name> #add a branch to remote
+git merge <branch name> #merge a branch to the current branch which is usaully main or master branch
+```
 
 ## Installing and Running Git on Linux Terminal
 
