@@ -29,7 +29,7 @@ Follow these steps to install Git on Windows:
 
 1. Search for "Git" in your browser and download the Windows version from [Git's official website](https://git-scm.com/downloads).
 2. Run the downloaded installer, accept the default settings (they can be modified later if needed), and complete the installation.
-3. Search for "GitHub Desktop" in your browser, download it from GitHub’s official site, and install it.
+3. Search for "GitHub Desktop" in your browser, download it from [GitHub’s official site](https://desktop.github.com/download/), and install it.
 4. Open the Command Prompt (CMD) and type `git`. If you see details about the Git command, it means Git has been installed successfully.
 
 > **Note:** Git has several essential commands for project control. However, on Windows, you can use GitHub Desktop's graphical interface instead of the command line. Regardless, understanding Git commands is important, as covered in the Linux section below.
