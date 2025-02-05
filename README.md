@@ -13,7 +13,7 @@ here's a simple, yet useful tutorial of git & github to get started with
 - [2. Basic Git Concepts](#basic-git-concepts)
 - [3. Creating, Editing, and Cloning a Repository](#creating-editing-and-cloning-a-repository)
 - [4. Managing codes with github branch](#Managing-codes-with-github-branch)
-- [5. Installing and Running Git on Linux Terminal](#installing-and-running-git-on-linux-terminal)
+- [5. Installing Git on Linux Terminal](#installing-git-on-linux-terminal)
 - [6. Creating a PAT for Your Account](#creating-a-pat-for-your-account)
 - [7. Cloning a repository using the PAT](#Cloning-a-repository-using-the-PAT)
 - [8. List of Essential Git Commands](#list-of-essential-git-commands)
@@ -132,7 +132,9 @@ git clone https://<username>:<PAT>@github.com/user/repository
 ```
 
 4. After cloning the repo, generally, we should be able to use Git commands in the directory where we placed the repo. However, under certain conditions, we may need to authenticate again, and we must reintroduce our PAT to Git for each pull, push and clone command, which can be annoying. After using the command above to clone, we can use the command below to save the authentication details, so there's no need to use the PAT in future commands. Generally, if you have used the PAT in previous commands, the command below should be executed directly, but it may prompt you for username and password (which is the PAT) that you need to enter, and then they will be saved.
-`git config --global credential.helper store`
+```sh
+git config --global credential.helper store
+```
 
 
 ## List of essential Git commands
@@ -200,9 +202,9 @@ on every directory of reposistories, you can put a README.md file which will be 
 -[title 3](#title3) >>
 
 ```
-##
+## Using Git in VSCode
 
-VScode supports git to source control your programs. This means you can code in the repo that has been cloned on your system, and directly commit and push code changes within the VScode application. To do this, click on "File" at the top of the page, then select "Open Folder" and choose the cloned folder from GitHub. Then look at the left sidebar, and the git logo (as several dots connected by lines) will be visible. The image below shows the overall git panel in VScode.
+VScode supports git to source control your programs. This means you can program your codes inside the repo that has been cloned on your system, and directly commit and push code changes within the VScode app. To do this, click on "File" at the top of the page, then select "Open Folder" and choose the cloned folder repository. Then look at the left sidebar, and the git logo (couple of dots connected by lines) will be visible. The image below shows the overall git panel in VScode.
 
 ![vscode](pics/2.png)
 
