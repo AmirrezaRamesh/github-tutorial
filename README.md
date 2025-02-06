@@ -1,6 +1,9 @@
 # Git & Github tutorial 
 here's a simple, yet useful tutorial of git & github to get started with
 
+![logo](pics/github-color.svg)
+
+
 ## What is Git & GitHub?
 
 - **Git**: A software used for version control. It helps you save changes to your code and revert to previous versions when needed. Think of it as a notebook for tracking code changes.
@@ -20,7 +23,6 @@ here's a simple, yet useful tutorial of git & github to get started with
 - [9. Editing the README](#editing-the-readme)
 - [10. Using Git in VSCode](#using-git-in-vscode)
 
-![logo](pics/github-color.svg)
 
 ## Installing Git on windows
 
