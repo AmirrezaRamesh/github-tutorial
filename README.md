@@ -12,11 +12,11 @@ here's a simple, yet useful tutorial of git & github to get started with
 - [1. Installing Git on Windows](#installing-git-on-windows)
 - [2. Basic Git Concepts](#basic-git-concepts)
 - [3. Creating, Editing, and Cloning a Repository](#creating-editing-and-cloning-a-repository)
-- [4. Managing codes with github branch](#Managing-codes-with-github-branch)
-- [5. Installing Git on Linux Terminal](#installing-git-on-linux-terminal)
-- [6. Creating a PAT for Your Account](#creating-a-pat-for-your-account)
-- [7. Cloning a repository using the PAT](#Cloning-a-repository-using-the-PAT)
-- [8. List of Essential Git Commands](#list-of-essential-git-commands)
+- [4. Installing Git on Linux Terminal](#installing-git-on-linux-terminal)
+- [5. Creating a PAT for Your Account](#creating-a-pat-for-your-account)
+- [6. Cloning a repository using the PAT](#Cloning-a-repository-using-the-PAT)
+- [7. List of Essential Git Commands](#list-of-essential-git-commands)
+- [8. Managing codes with github branch](#Managing-codes-with-github-branch)
 - [9. Editing the README](#editing-the-readme)
 - [10. Using Git in VSCode](#using-git-in-vscode)
 
@@ -71,23 +71,6 @@ on local machine:
 
 
 
-## Managing codes with Github branch
-
-Repositories in GitHub have a default **main** branch. as you work on your code, there are many times where you need to organize your workspace into multiple seprated workspaces where you can work on diffrent aspects of the code, or when you simply want to modify the code for new features without actually changing the main code. that's when you need to create new branches and source it to an older branch so all the files from that branch is copied to the new workspace. Additional branches can be created for better organization. The purpose of multiple branches is to test and apply changes in a separate environment without directly modifying the main files.
-For example, if 3 developers are working on the same program, first developer wants rewrite the code and make it cleaner, second developer wants to add and test some new features and third developer wants to write a modulated library for the program. it is not so hard to tell that these three developers can't directly modify the main program or work on the same files. so they simply create some other branches and work separately and at the end, they can merge they changes to the main program.
-
-Keeping branches well-organized ensures better collaboration and readability.
-
-```sh
-git branch <branch name> # to create a new branch
-git checkout <branch name> # to switch between branches
-git checkout -b <branch name> #to create and switch to a new branch
-git branch # to list all the branches
-git branch -m <old branch name> <new branch name> #rename a branch
-git push origin --delete <branch name> # delete a branch from remote
-git push -u origin <branch name> #add a branch to remote
-git merge <branch name> #merge a branch to the current branch which is usaully main or master branch
-```
 
 ## Installing and Running Git on Linux Terminal
 
@@ -167,6 +150,25 @@ git branch #list branches that we have locally siwtched to, meaning at first it 
 git checkout -- file.name # go back to last commit of the modified file. it could be a python code or even a stl mesh file
 
 git log #to see history of commits
+```
+
+
+## Managing codes with Github branch
+
+Repositories in GitHub have a default **main** branch. as you work on your code, there are many times where you need to organize your workspace into multiple seprated workspaces where you can work on diffrent aspects of the code, or when you simply want to modify the code for new features without actually changing the main code. that's when you need to create new branches and source it to an older branch so all the files from that branch is copied to the new workspace. Additional branches can be created for better organization. The purpose of multiple branches is to test and apply changes in a separate environment without directly modifying the main files.
+For example, if 3 developers are working on the same program, first developer wants rewrite the code and make it cleaner, second developer wants to add and test some new features and third developer wants to write a modulated library for the program. it is not so hard to tell that these three developers can't directly modify the main program or work on the same files. so they simply create some other branches and work separately and at the end, they can merge they changes to the main program.
+
+Keeping branches well-organized ensures better collaboration and readability.
+
+```sh
+git branch <branch name> # to create a new branch
+git checkout <branch name> # to switch between branches
+git checkout -b <branch name> #to create and switch to a new branch
+git branch # to list all the branches
+git branch -m <old branch name> <new branch name> #rename a branch
+git push origin --delete <branch name> # delete a branch from remote
+git push -u origin <branch name> #add a branch to remote
+git merge <branch name> #merge a branch to the current branch which is usaully main or master branch
 ```
 
 
