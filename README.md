@@ -128,7 +128,7 @@ git status # to see the changes made in the repo
 
 git add file # add a file or a modified file to git ready to be commited
 
-git add . # add all the files(including modified ones) to git ready to be commited
+git add . # add all the files(including modified ones) to get ready to be commited
 
 git commit -m "commit message" # to commit changes with a message
 
