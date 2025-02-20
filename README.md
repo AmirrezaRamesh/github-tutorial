@@ -137,7 +137,7 @@ git push origin <branch-name> #push the changes to the branch we want e. g. main
 #for example
 git add code.py
 git commit -m "new python code uoploaded"
-git push origin control
+git push origin main
 
 git pull origin <branch-name> # to download the latest version of the files of a branch to your PC
 
