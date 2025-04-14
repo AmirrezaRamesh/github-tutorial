@@ -20,8 +20,9 @@ here's a simple, yet useful tutorial of git & github to get started with
 - [6. Cloning a repository using the PAT](#Cloning-a-repository-using-the-PAT)
 - [7. List of Essential Git Commands](#list-of-essential-git-commands)
 - [8. Managing codes with github branch](#Managing-codes-with-github-branch)
-- [9. Editing the README](#editing-the-readme)
-- [10. Using Git in VSCode](#using-git-in-vscode)
+- [11. Issues and Pull Requests](#Issues-and-pull-requests)
+- [10. Editing the README](#editing-the-readme)
+- [11. Using Git in VSCode](#using-git-in-vscode)
 
 
 ## Installing Git on windows
@@ -145,8 +146,6 @@ git pull origin AI # download new & modified files for the AI branch and replace
 
 git checkout <branch-name> #switch from one branch to another
 
-git checkout mechanic #here we switch from main branch to mechanic branch. now the files of mechanic branch is accessible
-
 git branch #list branches that we have locally siwtched to, meaning at first it lists only main branch but after checkout commands, it shows other branches too
 
 git checkout -- file.name # go back to last commit of the modified file. it could be a python code or even a stl mesh file
@@ -157,7 +156,7 @@ git log #to see history of commits
 
 ## Managing codes with Github branch
 
-Repositories in GitHub have a default **main** branch. as you work on your code, there are many times where you need to organize your workspace into multiple seprated workspaces where you can work on diffrent aspects of the code, or when you simply want to modify the code for new features without actually changing the main code. that's when you need to create new branches and source it to an older branch so all the files from that branch is copied to the new workspace. Additional branches can be created for better organization. The purpose of multiple branches is to test and apply changes in a separate environment without directly modifying the main files.
+Repositories in GitHub have a default **main** branch. as you work on your code, there are many times where you need to organize your workspace into multiple seprated workspaces where you can work on diffrent aspects of the code, or when you simply want to modify the code for new features without actually changing the main code. that's when you need to create new branches and source it to an older branch so all the files from that branch is copied to the new workspace. Additional branches can be created for better organization. The purpose of multiple branches is to test and apply changes in a separate environment without directly modifying the main files. it will make more sense when you reach the pull request section!
 For example, if 3 developers are working on the same program, first developer wants rewrite the code and make it cleaner, second developer wants to add and test some new features and third developer wants to write a modulated library for the program. it is not so hard to tell that these three developers can't directly modify the main program or work on the same files. so they simply create some other branches and work separately and at the end, they can merge they changes to the main program.
 
 Keeping branches well-organized ensures better collaboration and readability.
@@ -173,7 +172,9 @@ git push -u origin <branch name> #add a branch to remote
 git merge <branch name> #merge a branch to the current branch which is usaully main or master branch
 ```
 
+## Issues and pull requests
 
+Issues are used to report bugs, suggest features, or ask questions about a repository. It's like a to-do list or discussion board where anyone can share problems or ideas.Pull Requests are how people suggest changes to the repository; sometimes its related to a issue and sometimes its simply a request to change the main code for any possible reason. When someone edits the code (usually in a separate branch for further developments), they open a pull request to ask for their changes to be reviewed and merged into the main project.
 ##  Editing the README
 
 on every directory of reposistories, you can put a README.md file which will be shown by default on github. you can document everything about the project that you have been working on. README file uses the MARKDOWN markup language, which allows you to easily document the project report or changes made in this file. In each folder of the repo, if a README.md exists, GitHub displays this file by default. Now in the block below, you can see how to make simple edits and include links and images in the file.
